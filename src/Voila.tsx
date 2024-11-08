@@ -6,6 +6,15 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  authDomain: "voila-b905e.firebaseapp.com",
+  projectId: "voila-b905e",
+  storageBucket: "voila-b905e.appspot.com",
+  messagingSenderId: "78788802866",
+  appId: "1:78788802866:web:eea76db31a06a8b43d7f2b",
+  measurementId: "G-6Y9XVJNEZJ"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
